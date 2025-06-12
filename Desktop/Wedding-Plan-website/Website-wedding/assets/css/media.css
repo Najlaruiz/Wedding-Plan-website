@@ -1,0 +1,304 @@
+/*===============MEDIA QUERY=============*/
+@media screen and (min-width: 1199px) {
+    /*=====Home=====*/
+    .about-right {
+        padding-right: 50px;
+        padding-top: 0;
+    }
+    .about .about-descript p {
+        font-size: 17px;
+    }
+    .about .about-descript p:last-child {
+        padding: 30px 0;
+    }
+    .about .about-descript p:nth-child(2) {
+        padding: 30px 0;
+    }
+    /*===Contact===*/
+    .contact-img img {
+        height: 500px;
+    }
+    .contact-text-box {
+        width: 100%;
+    }
+    /*====Services====*/
+    .service-pack-text p {
+        padding: 20px 0;
+    }
+    .service-trend-text p {
+        padding: 20px 0;
+    }
+    /*=====About====*/
+    .about-text p {
+        padding: 0;
+        font-size: 18px;
+    }
+    .team-text p {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 1199px){
+    /*===Contact===*/
+    .contact-img img {
+        height: 400px;
+    }
+    .contact .info h4 {
+        font-size: 18px;
+    }
+    /*======About====*/
+    .team-text p {
+        padding: 0 0;
+    }
+    .we-do p {
+        font-size: 16px;
+    }
+    .we-do h5 {
+        padding: 20px 0;
+    }
+    .about .about-descript p:last-child {
+        padding: 30px 0;
+    }
+    .about .about-descript p:nth-child(2) {
+        padding: 30px 0;
+    }
+    
+}
+@media screen and (max-width: 991px) {
+    /*===Home====*/   
+    .navbar-brand {
+        font-size: 40px;
+    }
+    .nav-light {
+        background-color: var(--bg-color) !important;
+        position: relative;
+        top: 0;
+        padding: 10px 15px;
+    }
+    .nav-light .navbar-nav {
+        padding-bottom: 10px;
+    }
+    .nav-light .navbar-nav > .nav-item > .nav-link {
+        padding: .7rem 0;
+        color: var(--navbar-color);
+    }
+    .nav-light .navbar-nav > .nav-item > .nav-link:hover {
+        color: var(--brand-color);
+    }
+    .hero-text h1 {
+        padding-top: 0;
+        margin: 0;
+        font-size: 30px;
+        line-height: 1.2;
+        letter-spacing: 1px;   
+    }
+    .hero-text-widget h1 {
+        text-align: center;
+    }
+    .hero-text-widget p {
+        text-align: center;
+    }
+    .named-text-bg {
+        text-align: center;
+    }
+    .des-card-text {
+        text-align: center;
+    }
+    .socket-tel {
+        text-align: center;
+    }
+    .socket-address {
+        text-align: center;
+    }
+    /*====Contact===*/
+    .contact-img img {
+        height: 300px;
+    }
+    .contact .submit-btn {
+        align-items: center;
+    }
+    /*===About===*/
+    .about-text {
+        text-align: center;
+    }
+    .team-text {
+        text-align: center;
+    }
+    .about-quote p:first-child {
+        padding-top: 30px;
+    }
+    .about-quote p:last-child {
+        font-size: 13px;
+        padding-top: 10px;
+    }
+    .about-text p {
+        padding: 0;
+    }
+    /*====Gallery===*/
+    .gallery-img {
+        flex: 50%;
+        max-width: 50%;
+      }
+}
+
+@media screen and (max-width: 767px) {
+    /*====Home=====*/
+    .social-media {
+        padding-bottom: 20px;
+    }
+    .phone-num {
+        text-align: center;
+    }
+    .nav-light .navbar-nav > .nav-item > .nav-link {
+        border-bottom: 1px solid rgba(255,255,255, .2);
+    }
+    .lead-text {
+        padding-top: 20px;
+    }
+    .media-banner {
+        flex-direction: column;
+    }
+    .media-banner div {
+        padding: 15px 0;
+    }
+    .named-text h1 {
+        font-size: 40px;
+    }
+    /*===Contact=====*/
+    .contact-img img {
+        height: 200px;
+    }
+    .contact .info i {
+        font-size: 15px;
+        width: 25px;
+        height: 25px;
+    }
+    .contact .info h4 {
+        font-size: 16px;
+        padding: 0 0 0 40px;
+    }  
+    .contact .info p {
+        padding: 0 0 0 30px;
+    }
+    .contact .info .phone,
+    .contact .info .email,
+    .contact .info .address {
+        margin-top: 15px;
+    }
+    .signup-form h2 {
+        font-size: 20px;
+    }
+    /*===About===*/
+    .heading h1 {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .text1 {
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+    .text1,
+    .text2 {
+        font-size: 16px;
+    }
+    .about-text h2 {
+        font-size: 16px;
+    }
+    .about-quote p:first-child {
+        font-size: 14px;
+        padding-top: 30px;
+    }
+    .about-quote p:last-child {
+        font-size: 13px;
+        padding-top: 10px;
+    }
+    .about-text p {
+        padding: 0;
+    }
+    /*===Gallery===*/
+    .gallery-img {
+        flex: 100%;
+        max-width: 100%;
+      } 
+}
+
+@media screen and (max-width: 575px) {
+    /*===Home===*/
+    .social-media {
+        margin: 0 auto;
+    }
+    .about .about-descript h2 {
+        font-size: 35px;
+    }
+    .named-text-bg h1 {
+        font-size: 35px;
+    }
+    .hero-text h1 {
+        padding-top: 50px;
+        font-size: 23px;
+        line-height: 40px;
+    }
+    .hero-text h2 {
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 3px;
+    }
+    .hero-text p {
+        text-align: center;
+    }
+    .hero-text p:last-child {
+        padding-top: 0;
+    }
+    .navbar-brand {
+        letter-spacing: 3px;
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    .navbar-brand small {
+        font-size: 13px;
+    }
+    .named-text h1 {
+        font-size: 40px;
+    }
+    .text-light h1{
+        font-size: 20px;
+    }
+    .hero-text-widget p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .section-title h5 {
+        font-size: 19px;
+    }
+    /*=====Testimonials====*/
+    .hero-img-content h4 {
+        font-size: 20px;
+    }
+    .main-text {
+        font-size: 18px;
+    }
+    /*==Contact===*/
+    .contact-img img {
+        height: 200px;
+    }
+    .contact-header-text h1 {
+        font-size: 20px;
+    }
+   /*====About====*/
+    .about-text h4 {
+        font-size: 39px;
+    }
+    .we-do h4 {
+        font-size: 25px;
+    }
+    .we-do h5 {
+        font-size: 28px;
+        letter-spacing: 1px;
+        line-height: 50px;
+        padding: 0 0;    
+    }
+    .about-text p {
+        padding: 0;
+    }
+}
